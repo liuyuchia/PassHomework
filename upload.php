@@ -16,11 +16,11 @@ if(move_uploaded_file($tmp_name,iconv("UTF-8", "big5", $dest ))) {
 }
 
 
-	//echo "檔案名稱: ".$name."<br/>";
-	//echo "檔案類型: " .$type."<br/>";
-	//echo "檔案大小: " .($size / 1024)." Kb<br />";
-	//echo "暫存名稱: " .$tmp_name."<br/>";
-	//echo "錯誤: " .$error."<br/>";
+	echo "檔案名稱: ".$name."<br/>";
+	echo "檔案類型: " .$type."<br/>";
+	echo "檔案大小: " .($size / 1024)." Kb<br />";
+	echo "暫存名稱: " .$tmp_name."<br/>";
+	echo "錯誤: " .$error."<br/>";
 	
 
 ?>   
