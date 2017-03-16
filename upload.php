@@ -6,7 +6,7 @@ $tmp_name = $_FILES['file']['tmp_name'];
 $error = $_FILES['file']['error']; 
 //$uploads = "\uploads".$name;
 
-$target_path = "https://github.com/liuyuchia/PassHomework/tree/master/uploads/"; //指定上傳資料夾
+$target_path = "https://github.com/liuyuchia/PassHomework/tree/master/uploads"; //指定上傳資料夾
 $dest = $target_path.$name;//上傳檔案名稱
 
 if(move_uploaded_file($tmp_name,iconv("UTF-8", "big5", $dest ))) {
